@@ -2,20 +2,30 @@
 //  ContentView.swift
 //  ParticleEffect
 //
-//  Created by Алиса Третьякова on 11.12.2023.
+//  Created by Alise Serhiienko on 11.12.2023.
 //
 
 import SwiftUI
 
 struct ContentView: View {
     var body: some View {
-        VStack {
-            Image(systemName: "globe")
-                .imageScale(.large)
-                .foregroundStyle(.tint)
-            Text("Hello, world!")
+        ZStack {
+            Color.systemBackground
+                .ignoresSafeArea()
+            
+            VStack {
+                Start()
+                
+                HStack(spacing: 0) {
+                    Text("Love")
+                        .font(.system(size: 20, weight: .bold))
+                        .foregroundStyle(.gray)
+                    Text("It")
+                        .font(.system(size: 20, weight: .bold))
+                        .foregroundStyle(.white)
+                }
+            }
         }
-        .padding()
     }
 }
 

@@ -2,7 +2,7 @@
 //  ParticleEffectApp.swift
 //  ParticleEffect
 //
-//  Created by Алиса Третьякова on 11.12.2023.
+//  Created by Alise Serhiienko on 11.12.2023.
 //
 
 import SwiftUI
